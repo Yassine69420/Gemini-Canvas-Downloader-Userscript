@@ -6,7 +6,6 @@ Download code from Google Gemini's Canvas with automatic file type detection.
 
 - **Smart file detection** - Automatically detects the correct file extension (HTML, React, Python, etc.)
 - **Multiple extraction methods** - Works with virtualized editors and large files
-- **Keyboard shortcut** - Press `Ctrl+Shift+D` to download instantly
 - **30+ languages supported** - HTML, JSX, Python, Java, Go, Rust, C++, PHP, and more
 
 ## 📥 Installation
@@ -54,13 +53,8 @@ If you see a warning message:
 
 ## 💡 Tips
 
-- Use `Ctrl+Shift+D` for fastest downloads
 - Files are automatically named based on the Canvas title
 - Works with all code lengths
-
-## 📝 Version
-
-**v3.0** - Enhanced detection, keyboard shortcuts, improved reliability
 
 ---
 
