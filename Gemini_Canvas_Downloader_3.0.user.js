@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gemini Canvas Downloader
 // @namespace    http://tampermonkey.net/
-// @version      3.0
+// @version      3.2
 // @description  Download Gemini Canvas code with smart detection, multi-file support, and enhanced reliability
 // @author       itsYazyn
 // @match        https://gemini.google.com/*
@@ -400,14 +400,6 @@
         });
     }
 
-    // Add keyboard shortcut (Ctrl+Shift+D)
-    document.addEventListener('keydown', (e) => {
-        if (e.ctrlKey && e.shiftKey && e.key === 'D') {
-            e.preventDefault();
-            handleDownload();
-        }
-    });
-
     // Start observer
     function startObserver() {
         const observer = new MutationObserver(() => {
@@ -422,7 +414,6 @@
 
     // Initialize
     startObserver();
-    console.log('✅ Gemini Canvas Downloader v3.0 - Loaded!');
-    console.log('💡 Tip: Use Ctrl+Shift+D to quickly download code');
+    console.log('✅ Gemini Canvas Downloader v3.2 - Loaded!');
 
 })();
